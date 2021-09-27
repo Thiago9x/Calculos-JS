@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+}
+header {
+    /* background-color: aqua; */
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    /* background-color: brown; */
+    flex-grow:1;
+}
+main form{
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    gap:10px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px black ;
+    
+}
+footer{
+    /* background-color: chartreuse; */
+    text-align: center;
+}
